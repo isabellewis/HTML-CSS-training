@@ -1,0 +1,39 @@
+.main-nav {
+  background: #98e1ff;
+  display: block;
+  width: 100%;
+}
+
+.main-nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav__list-item {
+  display: block;
+  margin: 5px 10px;
+}
+
+.section-container {
+  display: block;
+  padding: 20px;
+}
+
+@media (min-width: 650px) {
+  .main-nav {
+    display: inline-block;
+  }
+
+  .main-nav__list-item {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 20px;
+  }
+
+  .section-container {
+    display: inline-block;
+    max-width: 40%;
+    vertical-align: middle;
+  }
+}
