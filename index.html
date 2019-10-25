@@ -1,99 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dogs</title>
+    <link rel="stylesheet" href="grid-queries.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about-us">About Us</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+          <li>
+            <a href="/breed-list">List of dogs</a>
+          </li>
+          <li>
+            <a href="/quiz">Dog quiz</a>
+          </li>
+          <li>
+            <a href="/dog-of-day">Dog of the day</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1>Labrador Retrievers</h1>
+        <section>
+          <h2>Introduction</h2>
+          <p>
+            Labrador Retrievers have consistently been one of the most popular
+            family pets both in the UK and elsewhere in the world for decades
+            thanks to trustworthy and proven natures. Labs are gentle, yet
+            outgoing and always eager to please which in short makes them highly
+            trainable. Being so intelligent, the Labrador Retriever thrives just
+            as well in a home environment as they do working alongside their
+            owners in the field.
+          </p>
 
-Home
-About Us          
-Contact          
-List of dogs
-Dog quiz
-Dog of the day
-Labrador Retrievers
+          <p>
+            Originally bred to retrieve nets for fishermen and then game and
+            fowl for hunters, the Labrador Retriever excels when asked to work
+            in difficult and challenging terrains. They are more especially
+            suited to work in and around water, thanks to their alertness and
+            excellent water-resistant coats. The Labrador Retriever loves taking
+            part in canine sports and they excel at other activities which
+            includes working as Guide and Assistant Dogs. For decades, the
+            Labrador Retriever has consistently been at the top of the list as a
+            preferred companion and family pet throughout the world.
+          </p>
+        </section>
 
-Introduction
+        <section>
+          <h2>Interesting facts about the breed</h2>
+          <ul>
+            <li>
+              Are Labrador Retrievers a vulnerable breed? No, they are among the
+              most popular both in the UK and in other countries of the world
+            </li>
+            <li>
+              There is some thought that Labrador Retrievers might have been
+              called St. John's dogs or they may have been called Lesser
+              Newfoundlands. Other people think the breed was named after the
+              Portuguese word "lavradores" or the Spanish word "labradores"
+              which when translated means rural/agricultural workers. There is a
+              village in Portugal called Castro Laboreiro where herding dogs are
+              very similar looking to Labrador Retrievers too
+            </li>
+            <li>
+              Liver and golden Labs were known to exist way back in 1807 when
+              they were referred to a chocolate or butterscotch-yellow coloured
+              dogs
+            </li>
+            <li>
+              The first yellow Labrador to have been recognised was a dog named
+              Ben of Hyde
+            </li>
+            <li>
+              Chocolate Labs became popular in the thirties
+            </li>
+            <li>
+              Gold and fox red Labradors were bred to reestablish the colours by
+              breeders in England using Balrion King Frost and his grandson
+              Wynfaul Tabasco, a dog responsible for being the biggest influence
+              in re-establishing the colour fox red in the breed
+            </li>
+            <li>
+              All chocolate Labradors can trace their origins to eight
+              bloodlines
+            </li>
+          </ul>
+        </section>
 
-Labrador Retrievers have consistently been one of the most popular
-family pets both in the UK and elsewhere in the world for decades
-thanks to trustworthy and proven natures. Labs are gentle, yet
-outgoing and always eager to please which in short makes them highly
-trainable. Being so intelligent, the Labrador Retriever thrives just
-as well in a home environment as they do working alongside their
-owners in the field.
-Originally bred to retrieve nets for fishermen and then game and
-fowl for hunters, the Labrador Retriever excels when asked to work
-in difficult and challenging terrains. They are more especially
-suited to work in and around water, thanks to their alertness and
-excellent water-resistant coats. The Labrador Retriever loves taking
-part in canine sports and they excel at other activities which
-includes working as Guide and Assistant Dogs. For decades, the
-Labrador Retriever has consistently been at the top of the list as a
-preferred companion and family pet throughout the world.
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="2">Breed Highlights</th>
+              </tr>
+            </thead>
+            <tr>
+              <th>Positives</th>
+              <th>Negatives</th>
+            </tr>
+            <tr>
+              <td>Reliable, trustworthy, the breed is well proven</td>
+              <td>Labs need a ton of mental stimulation and daily exercise</td>
+            </tr>
+            <tr>
+              <td>
+                Labs make wonderful family pets and have an affinity with
+                children
+              </td>
+              <td>
+                They shed copiously throughout the year with yellow Labs
+                shedding more than black Labs
+              </td>
+            </tr>
+            <tr>
+              <td>Good natured and dependable</td>
+              <td>
+                Labs can be overly enthusiastic and bouncy especially when young
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Great around other dogs and animals because Labs are social by
+                nature
+              </td>
+              <td>
+                They tend to be a little "mouthy" which needs to be gently
+                curbed when young
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Always eager to please which makes Labs relatively easy to train
+              </td>
+              <td>Puppies can be naughty</td>
+            </tr>
+          </table>
+        </section>
 
-Interesting facts about the breed
+        <section>
+          <h2>Send us a message</h2>
+          <form action="/form-submit" method="get" accept-charset="utf-8">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div>
+              <label for="gender">Customer Type:</label>
+              <select name="gender">
+                <option value="optionone">Business</option>
+                <option value="optiontwo">Retail</option>
+                <option value="optionthree">Commercial</option>
+                <option value="optionthree">Other</option>
+              </select>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div>
+              <label for="msg">Message:</label>
+              <textarea
+                id="msg"
+                name="user_message"
+                rows="5"
+                cols="30"
+              ></textarea>
+            </div>
 
-
-Are Labrador Retrievers a vulnerable breed? No, they are among the
-most popular both in the UK and in other countries of the world
-
-
-There is some thought that Labrador Retrievers might have been
-called St. John's dogs or they may have been called Lesser
-Newfoundlands. Other people think the breed was named after the
-Portuguese word "lavradores" or the Spanish word "labradores"
-which when translated means rural/agricultural workers. There is a
-village in Portugal called Castro Laboreiro where herding dogs are
-very similar looking to Labrador Retrievers too
-
-
-Liver and golden Labs were known to exist way back in 1807 when
-they were referred to a chocolate or butterscotch-yellow coloured
-dogs
-
-
-The first yellow Labrador to have been recognised was a dog named
-Ben of Hyde
-
-
-Chocolate Labs became popular in the thirties
-
-
-Gold and fox red Labradors were bred to reestablish the colours by
-breeders in England using Balrion King Frost and his grandson
-Wynfaul Tabasco, a dog responsible for being the biggest influence
-in re-establishing the colour fox red in the breed
-
-
-All chocolate Labradors can trace their origins to eight
-bloodlines
-
-
-Breed Highlights
-Positives
-Negatives
-
-Reliable, trustworthy, the breed is well proven
-Labs need a ton of mental stimulation and daily exercise
-Labs make wonderful family pets and have an affinity with
-children
-They shed copiously throughout the year with yellow Labs
-shedding more than black Labs
-Good natured and dependable
-
-Labs can be overly enthusiastic and bouncy especially when young
-
-Great around other dogs and animals because Labs are social by
-nature
-
-They tend to be a little "mouthy" which needs to be gently
-curbed when young
-Always eager to please which makes Labs relatively easy to train
-Puppies can be naughty
-Send us a message
-Name:
-Customer Type:
-Business
-Retail
-Commercial
-Other
-Email:
-Message:
-Reset
-Sign Up
-
+            <div>
+              <button type="reset">Reset</button>
+              <button type="submit">Sign Up</button>
+            </div>
+          </form>
+        </section>
+      </article>
+    </main>
+    <footer></footer>
+  </body>
+</html>
